@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+  .navbar {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    color: blue;
+    font-size: 200px;
+  }
+}
+/*# sourceMappingURL=medie.css.map */

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         <BrowserRouter>
-          <div>
+          <div className="main">
             <Navbar></Navbar>
             <Route path='/' component={HomePage}></Route>
           </div>
