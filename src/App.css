@@ -1,0 +1,17 @@
+@import url("./Components/utils/varibals");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  background-image: url("./Components/Images/bg.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+/*# sourceMappingURL=app.css.map */

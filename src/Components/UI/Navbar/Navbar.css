@@ -1,14 +1,6 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
+@import url("../../utils//varibals");
 .navbar {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,6 +11,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 30px 20px;
+  width: 90vw;
+  position: absolute;
+  color: white;
 }
 
 .navbar .navbar-list {
@@ -28,7 +23,8 @@ body {
   list-style: none;
 }
 
-.navbar .navbar-list li {
+.navbar .navbar-list a {
+  color: white;
   margin-right: 20px;
 }
 /*# sourceMappingURL=Navbar.css.map */

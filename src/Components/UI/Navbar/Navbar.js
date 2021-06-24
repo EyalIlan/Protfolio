@@ -3,17 +3,17 @@ import './Navbar.css'
 
 export default function Navbar() {
     return (
-        <div className = "navbar">
-                <h2>Eyal Ilan</h2>
+        <header className = "navbar">
+                <h2 className="text-big">Eyal Ilan</h2>
             
                 <div className="navbar-list">
-                    <li><a href="">test </a></li>
-                    <li><a href="">test </a></li>
-                    <li><a href="">test </a></li>
-                    <li><a href="">test </a></li>
+                    <a className="text-medium" href="">test </a>
+                    <a  className="text-medium"  href="">test </a>
+                    <a className="text-medium"  href="">test </a>
+                    <a  className="text-medium" href="">test </a>
                 </div>
 
 
-        </div>
+        </header>
     )
 }
