@@ -1,5 +1,15 @@
-@import url("../../utils//varibals");
-@import url("../../utils/medie");
+.text-big {
+  font-size: 35px;
+}
+
+.text-medium {
+  font-size: 25px;
+}
+
+.text-small {
+  font-size: 16px;
+}
+
 .navbar {
   margin: auto;
   display: -webkit-box;
@@ -20,12 +30,64 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
 }
 
-.navbar .navbar-list a {
+.navbar .navbar-list li {
+  list-style: none;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar .navbar-list li::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #c1c5fd;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+}
+
+.navbar .navbar-list li::before {
+  content: '';
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #c1c5fd;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+}
+
+.navbar .navbar-list li:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navbar .navbar-list li:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navbar .navbar-list li a {
+  list-style: none;
   color: white;
-  margin-right: 25px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 #logo-higelight {

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAKA,AAAA,SAAS,CAAA;EAEL,SAAS,EAAE,IAAI;CAElB;;AAED,AAAA,YAAY,CAAA;EAER,SAAS,EAAE,IAAI;CAElB;;AAED,AAAA,WAAW,CAAA;EAEP,SAAS,EAAE,IAAI;CAElB",
-    "sources": [
-        "varibals.scss"
-    ],
-    "names": [],
-    "file": "varibals.css"
-}

@@ -6,17 +6,25 @@ export default function Navbar() {
         <header className = "navbar">
                 <h2 className="text-big">E<span id="logo-higelight">Y</span>AL ILAN</h2>
             
-                <div className="navbar-list">
-                    
+              
+                    <ul className="navbar-list">
+                        <li>
+                        <a className="text-medium" href="">Home</a>
+                        </li>
+                        <li>
+                            <a  className="text-medium"  href="">About</a>
+                        </li>
+                        
+                        <li>
+                            <a className="text-medium"  href="">Projects </a>
 
-                    <a className="text-medium" href="">Home</a>
+                        </li>
+                        <li>
+                            <a  className="text-medium" href="">Contact</a>
+                        </li>
                     
-                    <a  className="text-medium"  href="">About</a>
-                    
-                    <a className="text-medium"  href="">Projects </a>
-                    
-                    <a  className="text-medium" href="">Contact</a>
-                </div>
+                    </ul>
+              
 
 
         </header>
