@@ -95,27 +95,39 @@
   color: #4ea9f3;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .navbar {
     display: block;
     text-align: center;
-    padding: 0px;
   }
   .navbar .navbar-list {
-    display: block;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .navbar .navbar-list a {
-    display: block;
-    margin-right: 0px;
-    padding: 5px 0;
+  .navbar .navbar-list li {
     margin-top: 15px;
   }
-  .navbar .navbar-list a:hover {
-    background-color: #3d0f94;
+  .navbar .navbar-list li a {
+    padding: 5px;
   }
   .navbar .text-big {
     font-size: 40px;
-    padding-top: 20px;
+  }
+  .navbar .text-medium {
+    font-size: 20px;
+  }
+  .homepage h1 {
+    display: none;
+  }
+  .homepage h2 {
+    margin-bottom: 20px;
+  }
+  .homepage .headline i {
+    padding: 6px;
+    display: block;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

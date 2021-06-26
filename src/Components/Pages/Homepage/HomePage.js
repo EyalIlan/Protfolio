@@ -8,7 +8,7 @@ export default function HomePage() {
             
             <div className="headline">
             <h1>Eyal Ilan</h1>
-            <h2>Full Stack Web Developer</h2>
+            <h2>Full Stack Web Developer <i class="fas fa-laptop-code"></i></h2>
 
             </div>
         </div>
