@@ -8,7 +8,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center; 
-        padding: 10px 20px;
+        // padding: 10px 20px;
         width: 90vw;
         height: 10vh;
         // position: absolute;
@@ -23,11 +23,11 @@
                &::after{
                 content:'';
                 position: absolute;
-                top: 2px;
+                top: -2px;
                 bottom: 0;
                 left: 0;
                 right: 0;
-                height: 3px;
+                height: 4px;
                 background-color: $mainColor;
                 transform: scaleX(0);
                 transform-origin: left;

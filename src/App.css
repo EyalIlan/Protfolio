@@ -3,14 +3,30 @@
     display: block;
     text-align: center;
   }
+  .navbar .navbar-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .navbar .navbar-list li {
     margin-top: 15px;
+  }
+  .navbar .navbar-list li a {
+    padding: 5px;
   }
   .navbar .text-big {
     font-size: 40px;
   }
+  .navbar .text-medium {
+    font-size: 20px;
+  }
   .homepage h1 {
     display: none;
+  }
+  .homepage h2 {
+    margin-bottom: 20px;
   }
   .homepage .headline i {
     padding: 6px;
@@ -29,7 +45,7 @@ a {
 
 .main {
   background-image: url("./Components/Images/bg.jpg");
-  min-height: 100vh;
+  height: 100vh;
   background-size: 100% 100%;
   background-position: center;
 }

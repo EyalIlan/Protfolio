@@ -3,7 +3,7 @@
 
 .homepage{
     display: flex;
-    height: 85vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
     color: white;
@@ -21,4 +21,23 @@
     }
 }
 
+.box{
+    text-align: center;
+    height: 400px;
+    background-color: blue
+}
+
+.container{
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.skills-boxes{
+    padding: 2rem 0;
+    background-color: rgb(132, 0, 255)
+}
+
+@import "../../styles/MixingClasses";
 @import "../../styles/medie";
