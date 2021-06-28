@@ -23,14 +23,15 @@
 
 .box{
     text-align: center;
-    background-color: red;
+    // background-color: red;
     padding: 20px;
     border: 3px solid blue;
-    transition: 0.4s ease-in;
+    transition: 0.2s ease-in;
     &:hover{
-        background-color: rgb(66, 66, 216);
+        // background-color: rgb(66, 66, 216);
+        background-color: rgb(0, 0, 0);
         color: white;
-        transform: translateY(-30px);
+        transform: translateY(-10px);
         box-shadow: -20px 30px 20px rgba(0, 0, 0, 0.3);
     }
 }
@@ -38,7 +39,7 @@
 
 #container-skills{
     text-align: center;
-    // background-color: blue;
+    background-color: rgb(5, 1, 26);
     padding: 20px 0;
     color: white
 }
