@@ -27,27 +27,49 @@
 
 .box {
   text-align: center;
-  height: 400px;
-  background-color: blue;
+  background-color: red;
+  padding: 20px;
+  border: 3px solid blue;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
 }
 
-.container {
-  max-width: 1280px;
-  padding: 0 1.5rem;
-  margin: auto;
-  overflow: hidden;
+.box:hover {
+  background-color: #4242d8;
+  color: white;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  -webkit-box-shadow: -20px 30px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: -20px 30px 20px rgba(0, 0, 0, 0.3);
 }
 
-.skills-boxes {
-  padding: 2rem 0;
-  background-color: #8400ff;
+#container-skills {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
 }
 
 .grid {
+  grid-gap: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+}
+
+.text-big {
+  margin: 5px 0;
+  font-size: 35px;
+}
+
+.text-medium {
+  margin: 5px 0;
+  font-size: 25px;
+}
+
+.text-small {
+  margin: 5px 0;
+  font-size: 17px;
 }
 
 @media (max-width: 700px) {
