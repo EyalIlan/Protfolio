@@ -4,3 +4,4 @@ add another skill box
 skill boxes responsive -> :)
 add footer
 add the tech stack for my home page
+add main page animation

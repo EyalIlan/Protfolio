@@ -32,6 +32,11 @@
     padding: 6px;
     display: block;
   }
+  .grid {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    padding: 20px 0;
+  }
 }
 
 * {
@@ -45,6 +50,15 @@ a {
 
 p {
   line-height: 1.7;
+}
+
+.section {
+  height: 40vh;
+}
+
+.uneven {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8E2DE2), to(#4A00E0));
+  background-image: linear-gradient(#8E2DE2, #4A00E0);
 }
 
 .main {

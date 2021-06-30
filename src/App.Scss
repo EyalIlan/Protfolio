@@ -24,6 +24,15 @@ p{
     line-height: 1.7;
 }
 
+
+.section{
+    height: 40vh;
+}
+
+.uneven{
+    background-image: linear-gradient(#8E2DE2,#4A00E0);
+}
+
 .main{
     background-image:url('./Components/Images/bg.jpg');
     height: 100vh;

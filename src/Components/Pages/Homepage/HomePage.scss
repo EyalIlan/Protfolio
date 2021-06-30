@@ -1,5 +1,5 @@
 
-
+canvas {display: block;}
 
 .homepage{
     display: flex;
@@ -44,11 +44,23 @@
     color: white
 }
 
-.skills-boxes{
-    // padding: 2rem 0;
-    // background-color: rgb(132, 0, 255)
-}
+// .skills-boxes{
+//     // padding: 2rem 0;
+//     // background-color: rgb(132, 0, 255)
+// }
 
+
+
+
+
+
+
+@import "../../styles/classes";
 @import "../../styles/MixingClasses";
 @import "../../styles/varibals";
 @import "../../styles/medie";
+
+
+
+
+

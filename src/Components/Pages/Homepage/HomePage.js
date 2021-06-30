@@ -4,6 +4,9 @@ import './HomePage.css'
 export default function HomePage() {
   return (
     <div>
+
+
+
       <div className="homepage">
 
         <div className="headline">
@@ -12,13 +15,12 @@ export default function HomePage() {
 
         </div>
       </div>
-
       <section className="skills-boxes">
         <div id="container-skills">
           <h2 className="text-medium">I Specialize In</h2>
           <h4 className="text-small">Creating Fast Beatiful Web Applications</h4>
+ 
           <div className="grid">
-
             <div className="box">
               <img src="/images/programmer.png" alt="" />
               <h3 className="text-medium">passionate</h3>
@@ -36,6 +38,18 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <section id="homepage-lower-content">
+          <div className="section uneven flex">
+                <img src="/images/html5.png" className="image" alt="" />
+                <img src="/images/css3.png" className="image" alt="" />
+                <img src="/images/javaScript.png" className="image" alt="" />
+                <img src="/images/MongoDb.png" className="image" alt="" />
+                <img src="/images/nodeJs.png" className="image" alt="" />
+                <img src="/images/redux.jpg" className="image" alt="" />
+                <img src="/images/React.png" className="image" alt="" />
+                <img src="/images/scss.png" className="image" alt="" />
+          </div>
+        </section>
       </section>
     </div>
 
