@@ -59,7 +59,7 @@ canvas {
 }
 
 .text-medium {
-  margin: 5px 0;
+  margin: 5px 0 15px 0;
   font-size: 25px;
 }
 
@@ -68,13 +68,31 @@ canvas {
   font-size: 17px;
 }
 
+.modrate-box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: white;
+}
+
 .grid {
   grid-gap: 1rem;
   display: -ms-grid;
   display: grid;
+  height: 100%;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   padding: 20px 10px;
+}
+
+.grid2 {
+  grid-gap: 1rem;
+  display: -ms-grid;
+  display: grid;
+  min-height: 20vh;
+  text-align: center;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
 }
 
 .flex {
@@ -88,9 +106,22 @@ canvas {
           align-items: center;
 }
 
+.uneven-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .image {
-  height: 30%;
+  height: 90%;
+  width: 90%;
   background-color: transparent;
+  border-radius: 10%;
 }
 
 @media (max-width: 700px) {
@@ -131,6 +162,19 @@ canvas {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     padding: 20px 0;
+  }
+  .uneven-section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .image {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .text-medium {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=HomePage.css.map */

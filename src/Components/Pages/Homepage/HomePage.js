@@ -39,16 +39,41 @@ export default function HomePage() {
           </div>
         </div>
         <section id="homepage-lower-content">
-          <div className="section uneven flex">
+          <div className="section uneven uneven-section">
+              <div className="modrate-box">
+                <h3 className="text-medium">html5</h3>
                 <img src="/images/html5.png" className="image" alt="" />
+              </div>
+              <div className="modrate-box">
+                <h3 className="text-medium">css3</h3>
                 <img src="/images/css3.png" className="image" alt="" />
+              </div>
+              <div className="modrate-box">
+                <h3 className="text-medium">javaScript</h3>
                 <img src="/images/javaScript.png" className="image" alt="" />
-                <img src="/images/MongoDb.png" className="image" alt="" />
-                <img src="/images/nodeJs.png" className="image" alt="" />
-                <img src="/images/redux.jpg" className="image" alt="" />
-                <img src="/images/React.png" className="image" alt="" />
-                <img src="/images/scss.png" className="image" alt="" />
-          </div>
+              </div>
+              <div className="modrate-box">
+                <h3 className="text-medium">MongoDb</h3>
+                <img src="/images/mongodb.jpg" className="image" alt="" />
+              </div>
+              <div className="modrate-box">
+                <h3 className="text-medium">Nodejs</h3>
+                <img src="/images/nodeJs.jpg" className="image" alt="" />
+              </div>
+              <div className="modrate-box" >
+                <h3 className="text-medium">Redux</h3>
+                <img src="/images/redux.png" className="image" alt="" style={{backgroundColor:'#ff80ff'}}/>
+              </div>
+              <div className="modrate-box">
+                <h3 className="text-medium">React</h3>
+                <img src="/images/react.jpg" className="image" alt="" />
+              </div>
+              <div className="modrate-box">
+                <h3 className="text-medium">Scss</h3>
+                <img src="/images/scss4.png" className="image" alt="" />
+              </div>
+            </div>
+       
         </section>
       </section>
     </div>
