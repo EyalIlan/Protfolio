@@ -1,0 +1,29 @@
+@import "../../styles/varibals";
+
+#footer{
+    height: 15vh;
+    background-color:$evenBackround;
+    color: $mainColor;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    i{
+        color: white
+    }
+}
+
+#linkedin{
+    &:hover{
+        background-color: rgb(2, 56, 206)
+    }
+}
+
+#github{
+    
+    &:hover{
+        background-color: rgb(228, 131, 5)
+    }
+}
+
+
+@import "../../styles/medie";

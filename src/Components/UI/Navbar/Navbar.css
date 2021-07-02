@@ -1,3 +1,25 @@
+.text-big {
+  padding: 5px 0;
+  font-size: 35px;
+}
+
+.text-medium {
+  padding: 15px  0;
+  font-size: 25px;
+}
+
+.text-small {
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+.modrate-box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: white;
+}
+
 .navbar {
   margin: auto;
   display: -webkit-box;
@@ -80,28 +102,6 @@
 
 #logo-higelight {
   color: #f66f00;
-}
-
-.text-big {
-  padding: 5px 0;
-  font-size: 35px;
-}
-
-.text-medium {
-  padding: 15px  0;
-  font-size: 25px;
-}
-
-.text-small {
-  padding: 5px 0;
-  font-size: 17px;
-}
-
-.modrate-box {
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  color: white;
 }
 
 @media (max-width: 700px) {

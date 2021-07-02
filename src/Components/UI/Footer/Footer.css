@@ -1,3 +1,29 @@
+#footer {
+  height: 15vh;
+  background-color: #05011a;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#footer i {
+  color: white;
+}
+
+#linkedin:hover {
+  background-color: #0238ce;
+}
+
+#github:hover {
+  background-color: #e48305;
+}
+
 @media (max-width: 700px) {
   .navbar {
     display: block;
@@ -51,41 +77,4 @@
     font-size: 16px;
   }
 }
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  line-height: 1.7;
-}
-
-i {
-  margin: 4px;
-  padding: 3px;
-}
-
-.section {
-  min-height: 40vh;
-  color: white;
-  text-align: center;
-}
-
-.uneven {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#8E2DE2), to(#4A00E0));
-  background-image: linear-gradient(#8E2DE2, #4A00E0);
-  padding: 0 25px;
-}
-
-.main {
-  background-image: url("./Components/Images/bg.jpg");
-  height: 100vh;
-  background-size: 100% 100%;
-  background-position: center;
-}
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=Footer.css.map */

@@ -2,6 +2,7 @@
 
 
 @import "../../styles/varibals";
+@import '../../styles/classes';
 
 .navbar{
         margin: auto;
@@ -28,7 +29,7 @@
                 left: 0;
                 right: 0;
                 height: 4px;
-                background-color: $mainColor;
+                background-color: $LinkHoverColor;
                 transform: scaleX(0);
                 transform-origin: left;
                 transition: 200ms ease-in;
@@ -44,7 +45,7 @@
                 left: 0;
                 right: 0;
                 height: 3px;
-                background-color: $mainColor;
+                background-color: $LinkHoverColor;
                 transform: scaleX(0);
                 transform-origin: right;
                 transition: 200ms ease-in;
@@ -81,7 +82,5 @@
     color: rgb(246, 111, 0);
 }
 
-@import '../../styles/classes';
-@import '../../styles/varibals';
 @import "../../styles/medie";
 @import "../../styles/MixingClasses"

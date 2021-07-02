@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import {Route,BrowserRouter} from 'react-router-dom'
 import Navbar from './Components/UI/Navbar/Navbar'
 import HomePage from './Components/Pages/Homepage/HomePage'
-
+import Footer from './Components/UI/Footer/Footer'
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
           <div className="main">
             <Navbar></Navbar>
             <Route path='/' component={HomePage}></Route>
+            <Footer></Footer>
           </div>
         </BrowserRouter>   
     </div>
