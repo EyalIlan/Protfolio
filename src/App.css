@@ -43,6 +43,13 @@
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
+  .image {
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .text-medium {
+    font-size: 16px;
+  }
 }
 
 * {
@@ -60,6 +67,8 @@ p {
 
 .section {
   min-height: 40vh;
+  color: white;
+  text-align: center;
 }
 
 .uneven {

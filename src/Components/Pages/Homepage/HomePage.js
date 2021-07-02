@@ -39,7 +39,13 @@ export default function HomePage() {
           </div>
         </div>
         <section id="homepage-lower-content">
-          <div className="section uneven uneven-section">
+          <div className="section uneven">
+              
+
+              <h2 className="text-medium">My Tech Stack</h2>
+              <hr />
+            <div className="uneven-section">
+
               <div className="modrate-box">
                 <h3 className="text-medium">html5</h3>
                 <img src="/images/html5.png" className="image" alt="" />
@@ -72,8 +78,9 @@ export default function HomePage() {
                 <h3 className="text-medium">Scss</h3>
                 <img src="/images/scss4.png" className="image" alt="" />
               </div>
+            
             </div>
-       
+            </div>
         </section>
       </section>
     </div>
