@@ -83,6 +83,7 @@ i {
 }
 
 .main {
+  position: relative;
   background-image: url("./Components/Images/bg.jpg");
   height: 100vh;
   background-size: 100% 100%;

@@ -1,0 +1,30 @@
+.text-big {
+  padding: 15px 0;
+  font-size: 35px;
+  color: white;
+}
+
+.text-medium {
+  padding: 10px  0;
+  font-size: 25px;
+  color: white;
+}
+
+.text-small {
+  padding: 0px 0;
+  font-size: 17px;
+  color: white;
+}
+
+.modrate-box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: white;
+}
+
+#about {
+  height: 90vh;
+  text-align: center;
+}
+/*# sourceMappingURL=About.css.map */

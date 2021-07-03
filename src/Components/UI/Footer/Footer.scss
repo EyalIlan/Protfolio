@@ -7,9 +7,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 0 50px;
     i{
         color: white
     }
+    // position: absolute;
+    z-index: 20;
+    bottom: 0;
+    width: 100vw;
 }
 
 #linkedin{

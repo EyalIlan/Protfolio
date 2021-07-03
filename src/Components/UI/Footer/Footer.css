@@ -10,6 +10,10 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 0 50px;
+  z-index: 20;
+  bottom: 0;
+  width: 100vw;
 }
 
 #footer i {

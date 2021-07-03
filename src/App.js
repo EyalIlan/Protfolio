@@ -1,11 +1,11 @@
 import './App.css';
-import React, { useState } from 'react'
+import React from 'react'
 
 import {Route,BrowserRouter} from 'react-router-dom'
 import Navbar from './Components/UI/Navbar/Navbar'
 import HomePage from './Components/Pages/Homepage/HomePage'
+import About from './Components/Pages/About/About'
 import Footer from './Components/UI/Footer/Footer'
-
 
 function App() {
   return (
@@ -13,7 +13,8 @@ function App() {
         <BrowserRouter>
           <div className="main">
             <Navbar></Navbar>
-            <Route path='/' component={HomePage}></Route>
+            <Route path='/' component={HomePage} exact></Route>
+            <Route path='/about' component={About}></Route>
             <Footer></Footer>
           </div>
         </BrowserRouter>   

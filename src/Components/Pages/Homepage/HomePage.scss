@@ -1,6 +1,8 @@
 
 canvas {display: block;}
 
+@import "../../styles/varibals";
+
 .homepage{
     display: flex;
     height: 90vh;
@@ -40,14 +42,15 @@ canvas {display: block;}
 #container-skills{
     text-align: center;
     background-color: $evenBackround;
+    // background-color: red;
     padding: 20px 0;
     color: white
 }
 
-// .skills-boxes{
-//     // padding: 2rem 0;
-//     // background-color: rgb(132, 0, 255)
-// }
+.skills-boxes{
+    // padding: 2rem 0;
+    // background-color: rgb(132, 0, 255)
+}
 
 
 
@@ -57,7 +60,6 @@ canvas {display: block;}
 
 @import "../../styles/classes";
 @import "../../styles/MixingClasses";
-@import "../../styles/varibals";
 @import "../../styles/medie";
 
 

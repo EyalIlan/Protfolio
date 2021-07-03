@@ -19,7 +19,8 @@ export default function HomePage() {
         <div id="container-skills">
           <h2 className="text-medium">I Specialize In</h2>
           <h4 className="text-small">Creating Fast Beatiful Web Applications</h4>
- 
+
+
           <div className="grid">
             <div className="box">
               <img src="/images/programmer.png" alt="" />
