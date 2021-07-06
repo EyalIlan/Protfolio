@@ -11,13 +11,11 @@ function App() {
   return (
     <div className="App">
         <BrowserRouter>
-          <div className="main">
             <Navbar></Navbar>
             <Route path='/' component={HomePage} exact></Route>
             <Route path='/about' component={About}></Route>
             <Footer></Footer>
-          </div>
-        </BrowserRouter>   
+        </BrowserRouter>
     </div>
   );
 }

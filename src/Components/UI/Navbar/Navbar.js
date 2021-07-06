@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
         <header className = "navbar">
-                <h2 className="text-big">E<span id="logo-higelight">Y</span>AL ILAN</h2>
-            
-              
+                    <h2 className="text-big">E<span id="logo-higelight">Y</span>AL ILAN</h2>
+
                     <ul className="navbar-list">
                         <li>
                             <Link className="text-medium" to="/">Home</Link>

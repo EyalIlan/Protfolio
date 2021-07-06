@@ -1,9 +1,9 @@
 import React from 'react'
 import './HomePage.css'
-
+import Footer from '../../UI/Footer/Footer'
 export default function HomePage() {
   return (
-    <div>
+    <div className="main">
 
 
 
@@ -39,10 +39,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        </section>
         <section id="homepage-lower-content">
           <div className="section uneven">
-              
-
               <h2 className="text-medium">My Tech Stack</h2>
               <hr />
             <div className="uneven-section">
@@ -83,7 +82,6 @@ export default function HomePage() {
             </div>
             </div>
         </section>
-      </section>
     </div>
 
   )
