@@ -23,8 +23,102 @@
   color: white;
 }
 
-#about {
-  height: 90vh;
+.grid {
+  grid-gap: 1rem;
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  padding: 20px 10px;
+}
+
+.grid2 {
+  grid-gap: 1rem;
+  display: -ms-grid;
+  display: grid;
+  min-height: 20vh;
   text-align: center;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+}
+
+.grid3 {
+  grid-gap: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.uneven-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.main-section {
+  background-image: url("https://images.hdqwalls.com/download/neon-world-7o-1920x1080.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.image {
+  height: 90%;
+  width: 90%;
+  background-color: transparent;
+  border-radius: 10%;
+}
+
+.mid-container {
+  padding: 10vh 0;
+  margin: auto;
+  text-align: center;
+  width: 1080px;
+  background-color: #1e05ff;
+}
+
+.grid-1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 /span 2;
+  background-color: green;
+}
+
+.grid-2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2 /span 3;
+  background-color: red;
+}
+
+.grid-3 {
+  background-color: yellow;
+}
+
+.grid-4 {
+  background-color: purple;
+}
+
+.grid-5 {
+  background-color: saddlebrown;
 }
 /*# sourceMappingURL=About.css.map */

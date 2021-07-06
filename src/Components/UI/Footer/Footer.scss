@@ -4,6 +4,7 @@
     height: 15vh;
     background-color:$evenBackround;
     color: $mainColor;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -11,10 +12,7 @@
     i{
         color: white
     }
-    // position: absolute;
 
-    bottom: 0;
-    // width: 100vw;
 }
 
 #linkedin{

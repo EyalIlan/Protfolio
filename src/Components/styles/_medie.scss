@@ -1,22 +1,33 @@
 
-
+//medium size = 20px
+//small size = 14px
 
 @media(max-width:700px){
 
+
+    .text-medium{
+        font-size: 20px;
+    }
+
+    .text-small{
+        font-size: 14px;
+    }
+https://wallpaperaccess.com/full/845000.jpg
     .navbar{
         display: block;
         text-align: center;
-        // padding: 0px;
-
+        
 
         .navbar-list{
             
             justify-content: space-around;
             align-items: center;
             li{
-                margin-top: 15px;
+                // margin-bottom: 5px;
                 a{
-                    padding: 5px;
+                    padding:  5px;
+                    font-size: 20px;
+                    font-weight: 500;  
                 }
             }
             
@@ -31,13 +42,22 @@
 
     }
     .homepage{
-        h1{
-            display: none;
+
+        height: 50vh;
+
+        .headline{
+            
+            position: relative;
+            top: 60px;
+
+            h2{
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+            
         }
 
-        h2{
-            margin-bottom: 20px;
-        }
+
 
         .headline{
             i{
@@ -63,11 +83,13 @@
     .text-medium{
         font-size: 16px;
     }
-    // .modrate-box{
-    //    max-height: 70px;
-    //    max-width: 70px;
-    //     text-align: center;
-    //     color: white;
-    // }
+
+
+    #footer{
+        display: block;
+        padding: 20px 0;
+        height: 10vh;
+    }
+   
 }
 

@@ -16,8 +16,13 @@
     // padding: 20px 10px;
 }
 
+.grid3{
+    grid-gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 
-.flex{
+.flex{ // duplicate with uneven section 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,7 +33,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px;
 }
+
+.main-section{
+    background-image:url('https://images.hdqwalls.com/download/neon-world-7o-1920x1080.jpg'); // need to change to be adoptable to many sections
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position:center;
+
+}
+
 
 .image{
      height:90%;

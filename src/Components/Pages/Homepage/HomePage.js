@@ -1,6 +1,5 @@
 import React from 'react'
 import './HomePage.css'
-import Footer from '../../UI/Footer/Footer'
 export default function HomePage() {
   return (
     <div className="main">

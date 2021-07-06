@@ -2,6 +2,7 @@
   height: 15vh;
   background-color: #05011a;
   color: white;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,7 +12,6 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0 50px;
-  bottom: 0;
 }
 
 #footer i {
@@ -27,6 +27,12 @@
 }
 
 @media (max-width: 700px) {
+  .text-medium {
+    font-size: 20px;
+  }
+  .text-small {
+    font-size: 14px;
+  }
   .navbar {
     display: block;
     text-align: center;
@@ -38,11 +44,10 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .navbar .navbar-list li {
-    margin-top: 15px;
-  }
   .navbar .navbar-list li a {
     padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
   }
   .navbar .text-big {
     font-size: 40px;
@@ -50,11 +55,16 @@
   .navbar .text-medium {
     font-size: 20px;
   }
-  .homepage h1 {
-    display: none;
+  .homepage {
+    height: 50vh;
   }
-  .homepage h2 {
+  .homepage .headline {
+    position: relative;
+    top: 60px;
+  }
+  .homepage .headline h2 {
     margin-bottom: 20px;
+    font-size: 30px;
   }
   .homepage .headline i {
     padding: 6px;
@@ -77,6 +87,11 @@
   }
   .text-medium {
     font-size: 16px;
+  }
+  #footer {
+    display: block;
+    padding: 20px 0;
+    height: 10vh;
   }
 }
 /*# sourceMappingURL=Footer.css.map */
