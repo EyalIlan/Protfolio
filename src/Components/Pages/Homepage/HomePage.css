@@ -79,6 +79,15 @@ canvas {
   width: 100px;
   text-align: center;
   color: white;
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+}
+
+.modrate-box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .grid {
@@ -99,6 +108,14 @@ canvas {
   text-align: center;
   -ms-grid-columns: (1fr)[8];
       grid-template-columns: repeat(8, 1fr);
+}
+
+.grid3 {
+  grid-gap: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
 }
 
 .flex {
@@ -122,6 +139,13 @@ canvas {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px;
+}
+
+.main-section {
+  background-image: url("https://images.hdqwalls.com/download/neon-world-7o-1920x1080.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 .image {

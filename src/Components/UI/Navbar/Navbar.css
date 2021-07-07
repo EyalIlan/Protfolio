@@ -21,6 +21,32 @@
   width: 100px;
   text-align: center;
   color: white;
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+}
+
+.modrate-box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.active::after {
+  content: '';
+  position: relative;
+  height: 3px;
+  background-color: #c1c5fd;
+}
+
+.active::before {
+  content: '';
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #c1c5fd;
 }
 
 .navbar {
@@ -49,18 +75,25 @@
 
 .navbar .navbar-list li {
   list-style: none;
+  z-index: 1;
+}
+
+.navbar .navbar-list li a {
+  list-style: none;
+  color: white;
+  padding: 0px 15px;
   position: relative;
   z-index: 1;
 }
 
-.navbar .navbar-list li::after {
+.navbar .navbar-list li a::after {
   content: '';
   position: absolute;
-  top: -2px;
-  bottom: 0;
+  top: 35px;
   left: 0;
   right: 0;
-  height: 4px;
+  bottom: 0;
+  height: 3px;
   background-color: #c1c5fd;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
@@ -70,10 +103,10 @@
   transition: 200ms ease-in;
 }
 
-.navbar .navbar-list li::before {
+.navbar .navbar-list li a::before {
   content: '';
   position: absolute;
-  top: 35px;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -87,26 +120,18 @@
   transition: 200ms ease-in;
 }
 
-.navbar .navbar-list li:hover::after {
+.navbar .navbar-list li a:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
 
-.navbar .navbar-list li:hover::before {
+.navbar .navbar-list li a:hover::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
-}
-
-.navbar .navbar-list li a {
-  list-style: none;
-  color: white;
-  padding: 20px;
-  position: relative;
-  z-index: 1;
 }
 
 #logo-higelight {
-  color: #f66f00;
+  color: #784CDF;
 }
 
 @media (max-width: 700px) {
@@ -198,6 +223,14 @@
       grid-template-columns: repeat(8, 1fr);
 }
 
+.grid3 {
+  grid-gap: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,6 +252,13 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 10px;
+}
+
+.main-section {
+  background-image: url("https://images.hdqwalls.com/download/neon-world-7o-1920x1080.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
 }
 
 .image {

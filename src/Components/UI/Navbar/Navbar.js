@@ -1,30 +1,36 @@
 import React from 'react'
+import { Link,NavLink } from 'react-router-dom'
 import './Navbar.css'
-import { Link } from 'react-router-dom'
 
 export default function Navbar() {
+
+
+
     return (
-        <header className = "navbar">
-                    <h2 className="text-big">E<span id="logo-higelight">Y</span>AL ILAN</h2>
+        <header className="navbar">
+            <h2 className="text-big">E<span id="logo-higelight">Y</span>AL ILAN</h2>
 
-                    <ul className="navbar-list">
-                        <li>
-                            <Link className="text-medium" to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link  className="text-medium"  to="/about">About</Link>
-                        </li>
-                        
-                        <li>
-                            <a className="text-medium"  href="">Projects </a>
+            <ul className="navbar-list">
 
-                        </li>
-                        <li>
-                            <a  className="text-medium" href="">Contact</a>
-                        </li>
-                    
-                    </ul>
-              
+                <li>
+                    <NavLink  activeClassName="active" className="text-medium" to="/">Home</NavLink>
+                </li>
+
+                <li>
+                    <NavLink activeClassName="active"  className="text-medium" to="/about">About</NavLink>
+                </li>
+
+
+                <li>
+                    <NavLink activeClassName="active"  className="text-medium" to="/projects">Projects </NavLink>
+
+                </li>
+
+                <li>
+                    <NavLink activeClassName="active"  className="text-medium" to="/content">Contact</NavLink>
+                </li>
+            </ul>
+
 
 
         </header>

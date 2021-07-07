@@ -4,6 +4,27 @@
 @import "../../styles/varibals";
 @import '../../styles/classes';
 
+.active{
+   &::after{
+    content:'';
+    position: relative;
+    
+    height: 3px;
+    background-color: $LinkHoverColor;
+   }
+
+   &::before{
+    content:'';
+    top: 0px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: $LinkHoverColor;
+   }
+
+}
+
 .navbar{
         margin: auto;
         display: flex;
@@ -20,56 +41,58 @@
             display: flex;
             li{
                list-style: none;
-                position: relative;
                 z-index: 1;
-               &::after{
-                content:'';
-                position: absolute;
-                top: -2px;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                height: 4px;
-                background-color: $LinkHoverColor;
-                transform: scaleX(0);
-                transform-origin: left;
-                transition: 200ms ease-in;
-
-            }
-
-
-            &::before{
-                content:'';
-                position: absolute;
-                top: 35px;
-                bottom:0;
-                left: 0;
-                right: 0;
-                height: 3px;
-                background-color: $LinkHoverColor;
-                transform: scaleX(0);
-                transform-origin: right;
-                transition: 200ms ease-in;
-            }
-
-            &:hover{
-    
-                &::after{
-                    transform: scaleX(1);
-                }
-               
-                &::before{
-                    transform: scaleX(1);
-                }
-
-            }
-
+            
             a{
                 list-style: none;
                 color: white;
-                padding: 20px;
+                padding: 0px 15px;
                 position: relative;
                 z-index: 1;
+
+
+
+                &::after{
+                    content:'';
+                    position: absolute;
+                    top: 35px;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    height: 3px;
+                    background-color: $LinkHoverColor;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: 200ms ease-in;
+                }
+    
+    
+                &::before{
+                    content:'';
+                    position: absolute;
+                    top: 0;
+                    bottom:0;
+                    left: 0;
+                    right: 0;
+                    height: 3px;
+                    background-color: $LinkHoverColor;
+                    transform: scaleX(0);
+                    transform-origin: right;
+                    transition: 200ms ease-in;
+                }    
+
+                &:hover{
+    
+                    &::after{
+                        transform: scaleX(1);
+                    }
+                   
+                    &::before{
+                        transform: scaleX(1);
+                    }
+    
+                }
+    
             
             }
 
@@ -78,9 +101,12 @@
 }
 
 
+
+
 #logo-higelight{
+    color: #784CDF;
     // color: rgb(78, 169, 243);
-    color: rgb(246, 111, 0);
+    // color: rgb(246, 111, 0);
 }
 
 @import "../../styles/medie";

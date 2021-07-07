@@ -1,4 +1,5 @@
 import './App.css';
+// import React from 'react'
 import React from 'react'
 
 import {Route,BrowserRouter} from 'react-router-dom'
@@ -6,14 +7,24 @@ import Navbar from './Components/UI/Navbar/Navbar'
 import HomePage from './Components/Pages/Homepage/HomePage'
 import About from './Components/Pages/About/About'
 import Footer from './Components/UI/Footer/Footer'
+// #3CB8F8
 
-function App() {
+
+function App(props) {
+
+
+  
+
   return (
-    <div className="App">
+      <div className="App">
         <BrowserRouter>
             <Navbar></Navbar>
-            <Route path='/' component={HomePage} exact></Route>
-            <Route path='/about' component={About}></Route>
+            <Route path='/about' exact>
+                <About></About>
+            </Route>
+            <Route path='/' exact >
+                <HomePage/>
+            </Route>
             <Footer></Footer>
         </BrowserRouter>
     </div>

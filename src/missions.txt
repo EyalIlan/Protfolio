@@ -5,3 +5,11 @@ skill boxes responsive -> :)
 add footer
 add the tech stack for my home page
 add main page animation
+////
+add content to about box
+change the opacity to work only on the box and not on the text
+change font for the entire app
+change font size title of "about me"
+change the size of the boxes in the main page
+add active link 
+change the navbar span color according to the route -> development
